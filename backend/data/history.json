@@ -9,6 +9,286 @@
     "company_profile": {
       "company_name": "Rocket Mortgage",
       "domain": "rocketmortgage.com",
+      "industry": "Mortgage Lending / Financial Technology",
+      "company_size": "10,000+ employees",
+      "headquarters": "Detroit, Michigan",
+      "founding_year": "1985 (as Rock Financial, rebranded to Rocket Mortgage in 2015)",
+      "description": "Rocket Mortgage is a leading digital mortgage lender and part of Rocket Companies (NYSE: RKT). Founded in 1985, it provides a fully online mortgage application process allowing consumers to apply for purchase loans, refinancing, and home equity products through its website and mobile app. The company is known for its streamlined, technology-driven approach to mortgage lending.",
+      "website_url": "https://www.rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 6.6,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.9
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Marketo",
+          "confidence": 0.75
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.85
+        },
+        {
+          "category": "Analytics",
+          "technology": "Adobe Analytics",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.8
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.75
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "Azure",
+          "confidence": 0.6
+        },
+        {
+          "category": "Communication",
+          "technology": "Microsoft Teams",
+          "confidence": 0.8
+        },
+        {
+          "category": "Communication",
+          "technology": "Zoom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Black Knight (Mortgage Tech)",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Ellie Mae (Mortgage Processing)",
+          "confidence": 0.65
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Okta (Identity Management)",
+          "confidence": 0.75
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Akamai (CDN)",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.75
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "hiring",
+          "description": "Rocket Companies actively recruiting for software engineering, data science, and mortgage loan officer positions throughout 2025 to support technology platform expansion",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "technology",
+          "description": "Expanded AI and machine learning capabilities in mortgage application platform, including automated income verification and smart document processing launched in Q3 2025",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Rocket Money (formerly Truebill) expanded personal finance features including automatic savings tools and bill negotiation services, reaching over 2 million users by late 2025",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Rocket Homes platform expanded real estate partnership network across 15 new metropolitan markets in 2025, integrating mortgage pre-approval with home search tools",
+          "confidence": 0.65
+        },
+        {
+          "signal_type": "partnership",
+          "description": "Strategic partnership with major real estate brokerage networks to integrate Rocket Mortgage pre-approval directly into home listing platforms announced in mid-2025",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.7
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.4
+    },
+    "icp_score": {
+      "score": 3.5,
+      "fit_level": "weak",
+      "reasoning": "Rocket Mortgage is a 10,000+ employee enterprise company, significantly exceeding the typical mid-market ICP range of 50-500 employees. While they are tech-forward in the mortgage space, their massive scale and enterprise-level procurement processes create substantial friction for most B2B SaaS solutions designed for mid-market companies.",
+      "competitors": [
+        {
+          "name": "Better.com",
+          "domain": "better.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "United Wholesale Mortgage",
+          "domain": "uwm.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LendingTree",
+          "domain": "lendingtree.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhomeloans.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Question about Rocket's automation roadmap",
+      "email_body": "Rocket's built an incredible digital-first mortgage platform—and I noticed you've been exploring mortgage automation and AI sales solutions. The teams we work with in fintech are typically looking to slash manual processing time by 40-60% while keeping the human touch in customer relationships. Want to share what you're evaluating? Happy to walk through how we've helped similar lenders.",
+      "linkedin_note": "Saw your team is exploring automation solutions - totally makes sense given Rocket's tech-forward approach. Would love to share how we're helping mortgage lenders streamline operations. Quick chat?"
+    },
+    "ai_summary": "Rocket Mortgage is actively evaluating AI and automation solutions for their mortgage operations, as evidenced by high-intent visits to pricing, case studies, and AI sales agent pages. The company's aggressive technology expansion in Q3 2025 (automated income verification, smart document processing) directly aligns with your AI offerings. With 3 focused visits this week and a 6.6/10 intent score, they're in active evaluation mode. Their multi-cloud infrastructure (AWS + Azure) and existing mortgage tech stack (Black Knight, Ellie Mae) suggests they're sophisticated buyers who value integration flexibility. This is a prime opportunity - they're already investing heavily in AI and actively shopping for solutions.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Initiate outreach within 24 hours while interest is hot - they're visiting high-intent pages repeatedly this week",
+        "reasoning": "Three visits in one week to pricing, case studies, and AI agent pages indicates active vendor evaluation. Speed to lead is critical in evaluation stage."
+      },
+      {
+        "priority": "high",
+        "action": "Tailor pitch around their Q3 2025 AI launches (automated income verification, smart document processing) - position your solution as complementary",
+        "reasoning": "They just invested in AI for document processing; your solution can extend that capability further, showing you understand their current initiatives."
+      },
+      {
+        "priority": "high",
+        "action": "Request meeting with VP of Operations or Head of Sales - align on operational efficiency gains specific to mortgage lending workflows",
+        "reasoning": "Visitor persona is VP of Operations, and their technology investments focus on operational automation. Position ROI around reducing loan processing time and costs."
+      },
+      {
+        "priority": "medium",
+        "action": "Prepare integration case studies showing compatibility with Black Knight and Ellie Mae (their existing mortgage tech stack)",
+        "reasoning": "They use established mortgage platforms; demonstrating seamless integration reduces perceived implementation risk for a sophisticated buyer."
+      },
+      {
+        "priority": "medium",
+        "action": "Leverage Rocket Homes expansion (15 new metro markets) as a conversation starter - discuss scaling challenges for mortgage operations",
+        "reasoning": "Their geographic expansion creates operational complexity; position your solution as enabling scaled growth without proportional headcount increases."
+      }
+    ],
+    "overall_confidence": 0.76,
+    "analyzed_at": "2026-03-17T14:38:26.589944Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "https://rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.5
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 6.6,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [],
+      "confidence": 0.5
+    },
+    "business_signals": {
+      "signals": [],
+      "confidence": 0.5
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.4
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.5
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "Unable to generate summary.",
+    "recommended_actions": [],
+    "overall_confidence": 0.62,
+    "analyzed_at": "2026-03-17T13:52:43.085188Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
       "industry": "Mortgage Lending & Financial Services",
       "company_size": "10,000+ employees",
       "headquarters": "Detroit, Michigan, USA",
