@@ -1,26 +1,24 @@
-# Render.com Configuration - Single Service Approach
-# Deploy backend + frontend together on one free web service
-# Note: Render free tier spins down after 15 min inactivity
+# Render.com Configuration
+# 
+# OPTION 1: Use this file with Python runtime
+# - In Render, select "Python" as runtime
+# - Don't use Docker
+# - Render will auto-detect this file
+#
+# The build and start commands will run automatically
 
 services:
   - name: ai-account-intelligence
     type: web
     region: oregon
     runtime: python
-    buildCommand: |
-      pip install -r backend/requirements.txt
-      pip install playwright
-      playwright install chromium --with-deps
-      cd frontend && npm install && npm run build
+    buildCommand: pip install -r backend/requirements.txt && pip install playwright && playwright install chromium --with-deps && cd frontend && npm install && npm run build
     startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHONPATH
         value: /app
-      - key: FRONTEND_URL
-        value: /static
       - key: KILO_API_KEY
         sync: false
       - key: FIRECRAWL_API_KEY
         sync: false
-    # 512MB RAM, shared CPU - enough for demo
     plan: free
