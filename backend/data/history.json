@@ -1,0 +1,2710 @@
+[
+  {
+    "company_identification": {
+      "company_name": "Tenerity",
+      "domain": "tenerity.com",
+      "confidence": 0.85,
+      "method": "llm_inference"
+    },
+    "company_profile": {
+      "company_name": "Tenerity",
+      "domain": "tenerity.com",
+      "industry": "Customer Engagement & Loyalty Technology",
+      "company_size": "100-500 employees",
+      "headquarters": "New York, United States",
+      "founding_year": "2008",
+      "description": "Tenerity is a B2B SaaS company that provides customer engagement and loyalty platform solutions to enterprises. The company helps businesses build, manage, and optimize customer loyalty and rewards programs to drive customer retention and engagement.",
+      "website_url": "https://tenerity.com",
+      "email_pattern": null,
+      "confidence": 0.7
+    },
+    "persona": {
+      "likely_persona": "Unknown — no visitor behavior data",
+      "department": "N/A",
+      "seniority": "N/A",
+      "confidence": 0.0,
+      "reasoning": "Company was provided directly, not through visitor tracking."
+    },
+    "intent": {
+      "score": 0.0,
+      "stage": "N/A — Direct Input",
+      "signals": [
+        "Company provided via direct input (no visitor signals)"
+      ],
+      "confidence": 0.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.8
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Marketo",
+          "confidence": 0.6
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.6
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.7
+        },
+        {
+          "category": "Communication",
+          "technology": "Microsoft Teams",
+          "confidence": 0.6
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Salesloft",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.6
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Tenerity was acquired by Centerbridge Partners in 2021, marking a significant ownership transition from Merkle/Dentsu to private equity control, indicating potential growth capital and strategic repositioning",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Tenerity operates as a global loyalty and engagement platform serving enterprise clients across multiple verticals including retail, financial services, and travel",
+          "confidence": 0.6
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Tenerity has expanded its platform capabilities in digital loyalty, promotions, and personalized customer engagement solutions",
+          "confidence": 0.5
+        },
+        {
+          "signal_type": "partnership",
+          "description": "Parent company Merkle (Dentsu) previously operated HelloWorld which was rebranded to Tenerity, suggesting ongoing strategic relationships within the marketing technology ecosystem",
+          "confidence": 0.55
+        }
+      ],
+      "confidence": 0.55
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Unknown",
+          "title": "CEO/President",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "CFO",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "CTO/Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "Chief Revenue Officer",
+          "department": "Revenue",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Marketing",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Operations",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "Head of Business Development/Partnerships",
+          "department": "Business Development",
+          "linkedin_url": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Product",
+          "department": "Product",
+          "linkedin_url": null,
+          "confidence": 0.2
+        }
+      ],
+      "confidence": 0.1
+    },
+    "icp_score": {
+      "score": 9.0,
+      "fit_level": "strong",
+      "reasoning": "Tenerity is a strong ICP fit as a mid-market B2B SaaS company (100-500 employees) in the customer engagement space. Their tech-forward nature and position in the loyalty/rewards platform market means they would be highly receptive to RevOps, sales engagement, and customer success solutions. They understand the value of SaaS tools and have the budget for them.",
+      "competitors": [
+        {
+          "name": "Antavo",
+          "domain": "antavo.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Loyalty Lion",
+          "domain": "loyaltylion.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Comarch",
+          "domain": "comarch.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Smile.io",
+          "domain": "smile.io",
+          "similarity": "direct"
+        },
+        {
+          "name": "Yremember",
+          "domain": "yremember.com",
+          "similarity": "adjacent"
+        }
+      ],
+      "confidence": 0.9
+    },
+    "outreach": {
+      "email_subject": "The retention metric loyalty platforms miss",
+      "email_body": "You've built Tenerity to help enterprises drive loyalty—but are your own customers staying as engaged as they'd like? We help B2B SaaS companies identify churn risks before they happen and turn at-risk accounts into renewals. Got 10 minutes to explore if this could apply to your growth goals?",
+      "linkedin_note": "Hi [Name], noticed your work at Tenerity and the interesting position you're in—helping enterprises with loyalty while navigating your own customer retention challenges. Would love to share what we're seeing work in your space. Happy to hop on a quick call."
+    },
+    "ai_summary": "Tenerity is a B2B SaaS company specializing in customer engagement and loyalty platforms, serving enterprise clients across retail, financial services, and travel verticals. The company was acquired by private equity firm Centerbridge Partners in 2021, marking a significant ownership transition from Merkle/Dentsu—this PE ownership typically signals growth capital availability and potential technology investment cycles. With a 100-500 employee range and global operations, Tenerity represents a mid-market enterprise target with likely established marketing and sales tech stack investments including Salesforce, Marketo, and Salesloft.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Identify and connect with the VP of Marketing or Head of Marketing Technology at Tenerity—given their Marketo usage and customer engagement focus, they may be actively evaluating or expanding their marketing automation and loyalty platform capabilities.",
+        "reasoning": "Tenerity operates in the customer engagement space, making them both a potential buyer of complementary solutions and a strategic account for cross-selling; their PE ownership and enterprise client base suggest budget availability for technology investments."
+      },
+      {
+        "priority": "high",
+        "action": "Research and map the Centerbridge Partners investment thesis for Tenerity to understand strategic priorities—PE firms typically drive growth initiatives that require technology enablement.",
+        "reasoning": "PE-backed companies often have formalized growth plans and dedicated budget for technology investments to accelerate expansion, creating sales opportunities for solutions that support those objectives."
+      },
+      {
+        "priority": "medium",
+        "action": "Leverage LinkedIn to identify and engage with Tenerity employees in marketing, product, or operations roles to build warm introductions and understand current tech challenges.",
+        "reasoning": "Direct input accounts require outbound effort; building relationships with internal champions increases likelihood of securing meetings and understanding their pain points."
+      },
+      {
+        "priority": "medium",
+        "action": "Craft a value proposition focused on enhancing customer loyalty and engagement analytics, positioning against or alongside their existing Marketo and Salesforce stack.",
+        "reasoning": "Their current tech stack (Marketo + Salesforce) indicates sophisticated marketing operations; offering complementary capabilities around loyalty program optimization or customer analytics could resonate with their business objectives."
+      },
+      {
+        "priority": "low",
+        "action": "Set up alerts for Tenerity press releases, leadership changes, or funding news to stay informed on strategic shifts that may create new sales opportunities.",
+        "reasoning": "PE-owned companies frequently undergo transformation initiatives; being notified of leadership changes or strategic pivots allows proactive outreach aligned with their emerging needs."
+      }
+    ],
+    "overall_confidence": 0.56,
+    "analyzed_at": "2026-03-16T20:00:50.015538Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Tenerity",
+      "domain": "tenerity.com",
+      "confidence": 0.95,
+      "method": "llm_inference"
+    },
+    "company_profile": {
+      "company_name": "",
+      "domain": "",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "",
+      "email_pattern": null,
+      "confidence": 0.0
+    },
+    "persona": {
+      "likely_persona": "Unknown — no visitor behavior data",
+      "department": "N/A",
+      "seniority": "N/A",
+      "confidence": 0.0,
+      "reasoning": "Company was provided directly, not through visitor tracking."
+    },
+    "intent": {
+      "score": 0.0,
+      "stage": "N/A — Direct Input",
+      "signals": [
+        "Company provided via direct input (no visitor signals)"
+      ],
+      "confidence": 0.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.7
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "HubSpot",
+          "confidence": 0.5
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.5
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.6
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.6
+        },
+        {
+          "category": "Communication",
+          "technology": "Microsoft Teams",
+          "confidence": 0.5
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Google Workspace",
+          "confidence": 0.6
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "LinkedIn",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.45
+    },
+    "business_signals": {
+      "signals": [],
+      "confidence": 0.5
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Michael I. Brown",
+          "title": "CEO & Executive Chairman",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Steve G. Anderson",
+          "title": "President & COO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "Jason J. Thacker",
+          "title": "Chief Revenue Officer (CRO)",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Mark Anderson",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Jennifer Davis",
+          "title": "VP of Marketing",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Tom Wilson",
+          "title": "VP of Operations / COO",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Brian Matthews",
+          "title": "VP of Business Development",
+          "department": "Business Development",
+          "linkedin_url": null,
+          "confidence": 0.3
+        }
+      ],
+      "confidence": 0.35
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.0
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "This account shows an enterprise-level tech stack with Salesforce, HubSpot, AWS, and multiple communication platforms (Slack, MS Teams, Google Workspace), indicating a sizable, tech-forward organization. The presence of both a CRO (Jason J. Thacker) and VP of Marketing (Jennifer Davis) suggests formalized revenue and marketing operations. With no current visitor intent or business signals, this is a cold account requiring proactive outreach. The dual communication tools may indicate either distributed teams or recent M&A integration.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Research company and leadership backgrounds via LinkedIn to identify connection points or mutual contacts",
+        "reasoning": "No company description provided - must research to understand their business and find entry points. Leadership LinkedIn profiles may reveal recent news, investments, or initiatives."
+      },
+      {
+        "priority": "high",
+        "action": "Identify current vendor relationships by probing Salesforce and HubSpot usage depth",
+        "reasoning": "Understanding their current marketing automation and CRM maturity helps position solutions. If they're underutilizing these platforms, there's expansion opportunity."
+      },
+      {
+        "priority": "medium",
+        "action": "Check for AWS workload patterns that could indicate scale or growth phases",
+        "reasoning": "AWS usage can signal growth trajectory. Heavy AWS infrastructure suggests they may be investing in digital transformation."
+      },
+      {
+        "priority": "medium",
+        "action": "Craft personalized outreach targeting Jason Thacker (CRO) or Jennifer Davis (VP Marketing)",
+        "reasoning": "Direct outreach to revenue and marketing leadership aligns with their tech stack maturity. Personalized value props based on their role will improve response rates."
+      },
+      {
+        "priority": "low",
+        "action": "Set up Google Alerts for company name and leadership for ongoing monitoring",
+        "reasoning": "No business signals currently detected - ongoing monitoring may reveal triggering events like funding, leadership changes, or expansion news."
+      }
+    ],
+    "overall_confidence": 0.45,
+    "analyzed_at": "2026-03-16T19:53:18.875430Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "industry": "Mortgage Lending / Financial Services",
+      "company_size": "5,000-10,000 employees",
+      "headquarters": "Detroit, Michigan, USA",
+      "founding_year": "1985",
+      "description": "Rocket Mortgage is a digital mortgage lender that allows consumers to apply for, approve, and manage their mortgage loans entirely online. Founded as Rock Financial in 1985 and rebranded to Rocket Mortgage, it is one of the largest mortgage lenders in the United States and a subsidiary of Rocket Companies (NYSE: RKT). The company is known for its innovative, technology-driven approach to simplifying the home loan process.",
+      "website_url": "https://www.rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 7.2,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.9
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.95
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.85
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Adobe Experience Cloud",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.6
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Snowflake (Data Warehouse)",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.75
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Rocket Companies (parent of Rocket Mortgage) completed SPAC merger and went public on NYSE in August 2020, raising $1.8 billion",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "technology",
+          "description": "Continued investment in AI and automation for digital mortgage approval process, including the proprietary 'Rocket Mortgage' app and client portal",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Expansion beyond mortgages into adjacent financial services including Rocket Money (budgeting app), Rocket Homes (real estate platform), and Rocket Loans (personal loans)",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Ongoing hiring for technology, sales, and customer service positions across multiple U.S. locations",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "partnership",
+          "description": "Strategic partnerships with real estate brokers, home builders, and realtors to integrate mortgage services into home buying ecosystem",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.75
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Jay Farner",
+          "title": "CEO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Daniel J. Gilbert",
+          "title": "Founder & Chairman",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Bill Emerson",
+          "title": "Vice Chairman",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.8
+        },
+        {
+          "name": "Robert O'Brien",
+          "title": "CFO",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Steve Szul",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "Brad Stewart",
+          "title": "President of Rocket Mortgage",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "Jill Nowak",
+          "title": "Chief Marketing Officer",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Michele Hall",
+          "title": "Chief Operations Officer",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Jeff K. Huffman",
+          "title": "Head of Business Development",
+          "department": "Business Development",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Austin Arensberg",
+          "title": "VP of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.3
+        }
+      ],
+      "confidence": 0.6
+    },
+    "icp_score": {
+      "score": 4.5,
+      "fit_level": "weak",
+      "reasoning": "Rocket Mortgage is an enterprise-level company (5,000-10,000 employees) significantly larger than the typical mid-market ICP (50-500 employees). While they are tech-forward, their size typically involves complex procurement processes, longer sales cycles, and potentially different stakeholder priorities that may not align with mid-market SaaS solutions.",
+      "competitors": [
+        {
+          "name": "Better.com",
+          "domain": "better.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhomeloans.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Wells Fargo Home Lending",
+          "domain": "wellsfargo.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Guild Mortgage",
+          "domain": "guildmortgage.com",
+          "similarity": "adjacent"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Saw you're exploring mortgage automation",
+      "email_body": "Given Rocket Mortgage's reputation for disrupting the industry with technology, I noticed you were exploring our AI sales agent and automation case studies. We've helped similar digital-first lenders automate 40%+ of their sales pipeline while preserving the human touch your brand is known for. Got 10 minutes to explore what's possible?",
+      "linkedin_note": "Hey, noticed Rocket Mortgage is evaluating automation solutions - would love to show how we're helping lenders streamline operations while keeping the customer experience top-notch. Open to a quick chat?"
+    },
+    "ai_summary": "Rocket Mortgage is actively evaluating solutions in the AI sales automation space, showing high intent by visiting pricing, case studies, and AI sales agent pages during 3 return visits this week. As a publicly-traded fintech leader (NYSE: RKT) with heavy investments in AI and automation for their digital mortgage platform, they represent a strategic enterprise account. Their sophisticated tech stack (Salesforce, Snowflake, AWS) indicates they're ready for advanced integration, and their expansion into adjacent financial services (Rocket Money, Rocket Homes, Rocket Loans) suggests potential for cross-sell opportunities beyond mortgage automation.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Schedule a personalized demo of the AI sales agent solution focused on mortgage lending automation, tailored to their digital-first mortgage approval workflow",
+        "reasoning": "High intent signal: visitor explicitly visited /ai-sales-agent page; 7.2/10 intent score and evaluation stage indicates readiness for product demonstration; their existing AI investments in mortgage processing show organizational appetite for automation solutions"
+      },
+      {
+        "priority": "high",
+        "action": "Prepare ROI-focused pricing presentation addressing their /pricing page visit, highlighting cost reduction in mortgage processing and sales cycle acceleration",
+        "reasoning": "Direct /pricing page visit signals procurement-stage interest; as a large enterprise with $1.8B in recent funding, budget is available; demonstrating clear ROI will accelerate decision-making through their likely formal procurement process"
+      },
+      {
+        "priority": "medium",
+        "action": "Develop integration pitch leveraging their Salesforce CRM and Snowflake data warehouse infrastructure",
+        "reasoning": "Their tech stack shows sophisticated data infrastructure; positioning solution as Salesforce-native with Snowflake data capabilities addresses their likely technical requirements and reduces integration friction"
+      },
+      {
+        "priority": "medium",
+        "action": "Prepare mortgage automation case studies from fintech or financial services clients to address their /case-studies/mortgage-automation interest",
+        "reasoning": "Explicit interest in mortgage automation case studies indicates they want peer validation; fintech/financial services comparison points will resonate with their technology-forward culture"
+      },
+      {
+        "priority": "medium",
+        "action": "Initiate outreach to Austin Arensberg (VP of Sales) with value proposition focused on scaling sales operations through AI automation",
+        "reasoning": "Visitor persona appears to be VP of Operations or Head of Sales; connecting with VP of Sales aligns with their buying committee and positions solution as sales enablement tool for their expanding sales organization"
+      }
+    ],
+    "overall_confidence": 0.78,
+    "analyzed_at": "2026-03-16T19:50:53.247312Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Redfin",
+      "domain": "redfin.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "",
+      "domain": "",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "",
+      "email_pattern": null,
+      "confidence": 0.0
+    },
+    "persona": {
+      "likely_persona": "Marketing Analyst or Content Strategist",
+      "department": "Marketing",
+      "seniority": "Junior-Mid",
+      "confidence": 0.1,
+      "reasoning": "Based on page visits: /blog/ai-in-real-estate → Researcher / Analyst; /resources → Researcher / Analyst"
+    },
+    "intent": {
+      "score": 0.7,
+      "stage": "Awareness",
+      "signals": [],
+      "confidence": 0.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.7
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.7
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.6
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.5
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "React (frontend framework)",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.4
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Redfin completed IPO in July 2017 (NASDAQ: RDFN), raising $138 million in its initial public offering",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Redfin Now offers instant cash offers for homes, allowing homeowners to sell directly to Redfin without traditional listing process",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "technology",
+          "description": "Developed proprietary AI-powered home valuation tools and integrated MLS listings with 3D virtual tours across platform",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Operates as a licensed brokerage in 100+ markets across the United States with physical presence in major metropolitan areas",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Regularly recruits software engineers, data scientists, and licensed real estate agents to support technology and brokerage operations",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.75
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Glenn Kelman",
+          "title": "Chief Executive Officer",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "Unknown",
+          "title": "Chief Financial Officer (CFO)",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Unknown",
+          "title": "Chief Technology Officer (CTO)",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Unknown",
+          "title": "Chief Operating Officer (COO)",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Marketing",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "Unknown",
+          "title": "VP of Operations",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "Unknown",
+          "title": "Head of Business Development",
+          "department": "Business Development",
+          "linkedin_url": null,
+          "confidence": 0.25
+        }
+      ],
+      "confidence": 0.3
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.0
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "Unable to generate summary.",
+    "recommended_actions": [],
+    "overall_confidence": 0.4,
+    "analyzed_at": "2026-03-16T19:39:56.783743Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Better.com",
+      "domain": "better.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Better.com",
+      "domain": "better.com",
+      "industry": "Fintech/Mortgage Lending",
+      "company_size": "500-1,000 employees",
+      "headquarters": "New York, NY, USA",
+      "founding_year": "2014",
+      "description": "Better.com is a digital mortgage lender and fintech company that provides an online platform for homebuyers to obtain mortgage approvals, refinance loans, and access related real estate services including title insurance and real estate agent connections.",
+      "website_url": "https://better.com",
+      "email_pattern": null,
+      "confidence": 0.9
+    },
+    "persona": {
+      "likely_persona": "General Visitor",
+      "department": "Unknown",
+      "seniority": "Unknown",
+      "confidence": 0.03,
+      "reasoning": "Based on page visits: /careers → Job Seeker; /about → General Visitor"
+    },
+    "intent": {
+      "score": 0.6,
+      "stage": "Awareness",
+      "signals": [
+        "Engaged session (2m 0s)"
+      ],
+      "confidence": 0.2
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.85
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "HubSpot",
+          "confidence": 0.7
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.95
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.8
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.85
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.8
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Snowflake (Data Warehouse)",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Segment (Customer Data Platform)",
+          "confidence": 0.65
+        }
+      ],
+      "confidence": 0.8
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Completed SPAC merger with Aurora Acquisition Corp in 2021, becoming a publicly traded company (NASDAQ: BETR)",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Expanded beyond mortgage lending to offer title insurance services and real estate agent connection services",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Experienced significant workforce reduction with 900+ employees laid off in December 2021, followed by additional layoffs in 2022-2023",
+          "confidence": 0.9
+        },
+        {
+          "signal_type": "technology",
+          "description": "Operates as a digital-first mortgage platform using AI and automation for mortgage approvals and processing",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Expanded service offerings to include refinance loans, purchase mortgages, and integrated real estate services",
+          "confidence": 0.75
+        }
+      ],
+      "confidence": 0.8
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 6.0,
+      "fit_level": "moderate",
+      "reasoning": "Better.com is a tech-forward fintech company with 500-1,000 employees, placing it at the upper end of mid-market. While they are digitally-native and likely have modern RevOps infrastructure, their size leans toward enterprise and they operate in the specialized mortgage/fintech vertical, which may introduce vertical-specific complexity. These factors create moderate fit rather than strong fit for a general B2B SaaS solution.",
+      "competitors": [
+        {
+          "name": "Rocket Mortgage",
+          "domain": "rocketmortgage.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "United Wholesale Mortgage (UWM)",
+          "domain": "uwmmortgage.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Blend",
+          "domain": "blend.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Guild Mortgage",
+          "domain": "guildmortgage.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Saw your session on Better.com's digital platform",
+      "email_body": "Better.com's fully digital mortgage model is impressive—especially in a market where traditional lenders are still playing catch-up. Curious how you're thinking about scaling customer acquisition without sacrificing the streamlined experience that sets you apart. Would love to share what's working for similar fintech lenders and explore if there's a fit.",
+      "linkedin_note": "Hi! I noticed you were exploring our site and wanted to connect. We help fintech lenders like Better.com streamline outreach—happy to share some ideas if you're open to it."
+    },
+    "ai_summary": "Better.com is a publicly traded digital mortgage lender (NASDAQ: BETR) that has expanded beyond core lending into title insurance and real estate services. The company operates a digital-first platform using AI and automation, signaling openness to tech solutions. Despite a 2021 SPAC merger and service expansion, they've undergone significant workforce reductions (900+ in Dec 2021), suggesting a focus on operational efficiency. Their tech stack includes enterprise tools like Salesforce, Snowflake, and Segment, indicating they invest in data infrastructure and are likely responsive to solutions that demonstrate ROI.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Research Better.com's current tech initiatives and pain points related to their digital mortgage platform expansion",
+        "reasoning": "With recent service expansion into title insurance and real estate, they may have new technology needs. Understanding their digital strategy will uncover high-value conversation topics."
+      },
+      {
+        "priority": "high",
+        "action": "Leverage their existing tech stack as entry point - position solutions that integrate with Salesforce, Snowflake, or Segment",
+        "reasoning": "They've invested heavily in enterprise data infrastructure (Salesforce, Snowflake, Segment), showing they value integrated tech ecosystems. This reduces implementation friction and aligns with their existing architecture."
+      },
+      {
+        "priority": "medium",
+        "action": "Craft messaging around operational efficiency and cost reduction given their workforce reductions",
+        "reasoning": "Post-layoffs, Better.com likely prioritizes doing more with less. Solutions that demonstrate efficiency gains and ROI will resonate with their current operational focus."
+      },
+      {
+        "priority": "medium",
+        "action": "Monitor for product/leadership announcements as they're a public company with expansion plans",
+        "reasoning": "As a publicly traded company, earnings calls and press releases will reveal strategic priorities. Timing outreach with new initiatives can increase relevance."
+      },
+      {
+        "priority": "low",
+        "action": "Build awareness through content marketing focused on digital mortgage/fintech industry trends",
+        "reasoning": "With low intent score (0.6/10) and awareness-stage positioning, direct sales outreach may be premature. Nurture with industry-relevant content to build relationship over time."
+      }
+    ],
+    "overall_confidence": 0.6,
+    "analyzed_at": "2026-03-16T19:14:39.893414Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Opendoor",
+      "domain": "opendoor.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Opendoor",
+      "domain": "opendoor.com",
+      "industry": "Real Estate / PropTech",
+      "company_size": "1000-5000 employees",
+      "headquarters": "San Francisco, California, USA",
+      "founding_year": "2014",
+      "description": "Opendoor is a technology-powered real estate company that simplifies the home selling process by offering homeowners cash offers directly for their properties. The company purchases homes, handles renovations, and resells them to buyers, leveraging technology to streamline real estate transactions.",
+      "website_url": "https://opendoor.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "Marketing Analyst or Content Strategist",
+      "department": "Marketing",
+      "seniority": "Junior-Mid",
+      "confidence": 0.1,
+      "reasoning": "Based on page visits: /blog/ai-agents-explained → Researcher / Analyst; /resources/whitepaper → Researcher / Analyst"
+    },
+    "intent": {
+      "score": 2.5,
+      "stage": "Interest",
+      "signals": [
+        "Repeat visitor (2 visits this week)",
+        "Engaged session (3m 0s)"
+      ],
+      "confidence": 0.4
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.9
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.6
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.3
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Opendoor went public in December 2020 via SPAC merger with Social Capital Hedosophia Holdings Corp II, raising approximately $1.2 billion in gross proceeds",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Expanded from initial Phoenix market to 50+ US markets across Arizona, Texas, Florida, Georgia, North Carolina, and California",
+          "confidence": 0.9
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Launched Opendoor Exclusives program allowing agents to represent buyers purchasing Opendoor homes, and integrated mortgage services through Opendoor Loans",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "technology",
+          "description": "Developed proprietary algorithmic home valuation model using machine learning and automated renovation systems for inventory management",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "acquisition",
+          "description": "Acquired Lendl's, a home improvement marketplace, to build out renovation capabilities and service offerings",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.82
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 6.5,
+      "fit_level": "moderate",
+      "reasoning": "Opendoor is a strong fit for tech-forward companies but presents some ICP friction. With 1000-5000 employees, they exceed the ideal mid-market range (50-500) and skew toward enterprise. However, as a technology-powered company in PropTech, they have demonstrated tech maturity and likely have modern RevOps infrastructure, making them a viable but not ideal prospect for most B2B SaaS solutions.",
+      "competitors": [
+        {
+          "name": "Zillow",
+          "domain": "zillow.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Redfin",
+          "domain": "redfin.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Compass",
+          "domain": "compass.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Knock",
+          "domain": "knock.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Offerpad",
+          "domain": "offerpad.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Quick question about Opendoor's content approach",
+      "email_body": "Love what Opendoor is doing - removing the friction from home sales is a game-changer in PropTech. I noticed you've been exploring our resources and would love to share some content strategies that have worked for similar marketers driving growth in real estate tech. Got 15 mins for a quick chat?",
+      "linkedin_note": "Hey! Saw you visited a few times this week - always happy to chat content strategy for PropTech. What's your biggest content challenge right now?"
+    },
+    "ai_summary": "Opendoor is a well-funded PropTech unicorn that went public via SPAC in 2020, raising $1.2B. The company has expanded to 50+ US markets and invests heavily in technology (ML-based valuation, automated renovations). A repeat visitor from Marketing spent 3 minutes researching—likely evaluating analytics, content, or martech solutions. Given their tech-forward approach (AWS, custom CMS) and recent product launches (Opendoor Exclusives, mortgage services), they're actively building out their tech stack and may be comparing solutions.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Deploy retargeting ads or personalized display campaigns targeting Opendoor's marketing team with content addressing PropTech marketing challenges",
+        "reasoning": "Repeat visitor behavior indicates active research; 3-minute engagement shows serious interest. Marketing persona suggests they're evaluating solutions for tracking campaign performance or content strategy."
+      },
+      {
+        "priority": "high",
+        "action": "Send personalized email to Opendoor marketing leadership with case studies from similar PropTech or Real Estate companies",
+        "reasoning": "Public company with recent product launches (Exclusives, mortgage services) likely has budget for marketing technology investments. Direct outreach can accelerate their evaluation process."
+      },
+      {
+        "priority": "medium",
+        "action": "Research and connect with Opendoor marketing leaders on LinkedIn, particularly those focused on analytics, content, or digital marketing",
+        "reasoning": "No leaders identified in data—proactive social selling can identify decision-makers. Their tech stack (Google Analytics, AWS) indicates a data-driven marketing team open to modern solutions."
+      },
+      {
+        "priority": "medium",
+        "action": "Prepare solution positioning that differentiates from or integrates with their existing tech stack (AWS, Google Analytics)",
+        "reasoning": "Opendoor uses enterprise-grade tools; positioning should address compatibility and data unification rather than complete replacement."
+      },
+      {
+        "priority": "low",
+        "action": "Monitor for intent escalation and trigger-based outreach if visit frequency increases or they access pricing/product pages",
+        "reasoning": "Current intent score (2.5/10) is moderate; nurturing until higher intent signals emerge prevents premature sales pressure."
+      }
+    ],
+    "overall_confidence": 0.59,
+    "analyzed_at": "2026-03-16T19:04:57.720466Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Guaranteed Rate",
+      "domain": "rate.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Guaranteed Rate",
+      "domain": "rate.com",
+      "industry": "Mortgage Lending",
+      "company_size": "5,000+ employees",
+      "headquarters": "Chicago, IL",
+      "founding_year": "2000",
+      "description": "Guaranteed Rate is a leading digital mortgage lender offering home purchase loans, refinancing, and home equity lines of credit. The company provides fast pre-approval in as little as 5 minutes and has helped buyers secure $30.3 billion in loans in 2025, with over 4,000 loan experts nationwide.",
+      "website_url": "https://rate.com",
+      "email_pattern": null,
+      "confidence": 0.9
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /features → Product Evaluator; /integrations → Technical Evaluator; /pricing → Buyer / Decision Maker"
+    },
+    "intent": {
+      "score": 8.2,
+      "stage": "Decision",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Long session (5m 40s)",
+        "Paid/review-site referral (capterra)"
+      ],
+      "confidence": 0.8
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.6
+        },
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.7
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "HubSpot",
+          "confidence": 0.6
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.8
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.5
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "MLS Integration",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Mortgage Loan Origination System",
+          "confidence": 0.6
+        }
+      ],
+      "confidence": 0.65
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "expansion",
+          "description": "National presence with 4,000+ loan experts across the United States, indicating significant geographic coverage and market penetration",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "technology",
+          "description": "Digital mortgage platform with 5-minute pre-approval capability, demonstrating investment in streamlined digital lending technology",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Expanded product suite including home purchase loans, refinancing, and home equity lines of credit",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Achieved $30.3 billion in loan volume in 2025, representing substantial market share growth in the digital mortgage sector",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.7
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 5.0,
+      "fit_level": "moderate",
+      "reasoning": "Guaranteed Rate is a large enterprise mortgage lender (5,000+ employees) that falls outside the typical mid-market ICP range of 50-500 employees. While they are tech-forward in mortgage lending, their enterprise scale creates friction typical of larger organizations—longer sales cycles, complex procurement, and potentially different RevOps priorities. However, they could still be a viable prospect if they have mid-market segments or are actively modernizing their tech stack.",
+      "competitors": [
+        {
+          "name": "Rocket Mortgage",
+          "domain": "rocketmortgage.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Fairway Independent Mortgage Corporation",
+          "domain": "fairwaymc.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhome loans.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "UWM (United Wholesale Mortgage)",
+          "domain": "uwm.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.8
+    },
+    "outreach": {
+      "email_subject": "$30B in volume - what's your biggest operational pinch point?",
+      "email_body": "With Guaranteed Rate hitting $30.3B in loans this year, you're clearly doing something right at scale. But high volume typically means tight margins - and with 4,000+ loan experts in the mix, operational efficiency becomes the differentiator. I'd love to share what's working for other top-tier lenders this quarter. Got 10 minutes to compare notes?",
+      "linkedin_note": "Saw your team researching pricing - with $30B+ in volume, I'd guess you're looking at operational efficiency levers? Let's chat about what's moving the needle for other top lenders."
+    },
+    "ai_summary": "Guaranteed Rate is a major digital mortgage lender ($30.3B in 2025 loan volume) actively researching solutions - they arrived from Capterra (software review site), visited the pricing page, and are returning with high intent (8.2/10). With 5,000+ employees and 4,000+ loan experts nationwide, this is a significant enterprise account in decision stage. The likely buyer is VP of Operations or Head of Sales, and their tech stack (Salesforce, HubSpot, AWS) suggests they're already digitally sophisticated. Given they're comparing solutions on Capterra, they're likely in an active vendor evaluation cycle.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Contact VP of Operations directly within 24 hours - they're in decision stage with high purchase intent",
+        "reasoning": "Capterra referral + pricing page visit + returning visitor pattern indicates active vendor evaluation. Immediate outreach captures them during decision phase."
+      },
+      {
+        "priority": "high",
+        "action": "Lead with ROI and pricing transparency in initial communication",
+        "reasoning": "They explicitly visited /pricing - price sensitivity and value justification are top of mind for this buyer."
+      },
+      {
+        "priority": "medium",
+        "action": "Reference their digital mortgage platform and 5-minute pre-approval capability in pitch",
+        "reasoning": "Their technology investments (custom platform, AWS, rapid pre-approval) show they value innovation - align your solution with their tech-forward DNA."
+      },
+      {
+        "priority": "medium",
+        "action": "Emphasize scalability and national coverage capabilities",
+        "reasoning": "With 4,000+ loan experts across the US and $30.3B volume, they need solutions that handle enterprise-scale operations."
+      },
+      {
+        "priority": "low",
+        "action": "Prepare competitive positioning against other mortgage tech vendors they may be reviewing on Capterra",
+        "reasoning": "Capterra visitors typically compare 2-3 vendors - have differentiation points ready for when they're comparing options."
+      }
+    ],
+    "overall_confidence": 0.68,
+    "analyzed_at": "2026-03-16T19:01:24.119496Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Guaranteed Rate",
+      "domain": "rate.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "",
+      "domain": "",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "",
+      "email_pattern": null,
+      "confidence": 0.0
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /features → Product Evaluator; /integrations → Technical Evaluator; /pricing → Buyer / Decision Maker"
+    },
+    "intent": {
+      "score": 8.2,
+      "stage": "Decision",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Long session (5m 40s)",
+        "Paid/review-site referral (capterra)"
+      ],
+      "confidence": 0.8
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.85
+        },
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.6
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.5
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "technology",
+          "description": "Digital mortgage platform with eClose and online lending capabilities - core to their value proposition as a leading digital lender",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Consistently hiring loan officers, processors, and technology roles to support growth as a top 5 US mortgage lender",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Geographic expansion across US markets, now operating in all 50 states with retail branches and digital presence",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Launched Guaranteed Rate Affinity, a digital platform aimed at affinity groups and partner channels",
+          "confidence": 0.65
+        },
+        {
+          "signal_type": "partnership",
+          "description": "Strategic partnerships with real estate agencies and technology platforms to drive mortgage origination volume",
+          "confidence": 0.6
+        }
+      ],
+      "confidence": 0.65
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.0
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "This is Guaranteed Rate, a top 5 US mortgage lender and leading digital mortgage platform. The visitor is likely a VP of Operations or Head of Sales Operations at Decision stage with very high intent (8.2/10) - actively comparing solutions (arrived from Capterra review site), visited the pricing page, and has returned 3 times this week with long session times (5m 40s). Their tech stack includes Salesforce and AWS, indicating a sophisticated, cloud-based operation. Key business drivers include digital transformation initiatives, geographic expansion across all 50 states, and strategic partnerships with real estate agencies - all pointing to potential operational efficiency needs.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Schedule a demo call within 24 hours - their high intent (8.2) and Decision stage indicates they're actively evaluating solutions",
+        "reasoning": "Visitor is in buying mode: visited pricing, came from comparison site (Capterra), and returned 3x this week. Acting fast captures them while actively comparing options."
+      },
+      {
+        "priority": "high",
+        "action": "Tailor pitch to mortgage/lending industry pain points - reference their digital mortgage and eClose capabilities",
+        "reasoning": "Their business signals emphasize digital transformation (eClose, online lending, Guaranteed Rate Affinity platform). Positioning your solution as enhancing their digital strategy aligns with their obvious strategic focus."
+      },
+      {
+        "priority": "high",
+        "action": "Prepare case studies or ROI data for similar mortgage lenders, especially those with Salesforce and AWS stacks",
+        "reasoning": "They use Salesforce (CRM) and AWS (cloud) - showing relevance to their specific tech environment increases credibility. Mortgage industry social proof accelerates trust."
+      },
+      {
+        "priority": "medium",
+        "action": "Research their recent hiring for operations roles and any operational leadership changes",
+        "reasoning": "They've been consistently hiring loan officers, processors, and tech roles. Understanding their growth trajectory helps position solutions around scaling operational capacity."
+      },
+      {
+        "priority": "medium",
+        "action": "Identify if they're using a competitor for their current operational tools - prepare competitive differentiation points",
+        "reasoning": "Coming from Capterra suggests they're actively reviewing alternatives. Being prepared to displace an incumbent or win against specific competitors improves close rates."
+      }
+    ],
+    "overall_confidence": 0.48,
+    "analyzed_at": "2026-03-16T18:59:07.411477Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Better.com",
+      "domain": "better.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Better.com",
+      "domain": "better.com",
+      "industry": "Mortgage Lending / Fintech",
+      "company_size": "1,000-5,000 employees",
+      "headquarters": "New York, NY, USA",
+      "founding_year": "2014",
+      "description": "Better.com is a digital mortgage lender and fintech company that offers online mortgage applications, home purchase loans, and refinancing services. The company uses technology to simplify and streamline the mortgage approval process for homebuyers.",
+      "website_url": "https://better.com",
+      "email_pattern": null,
+      "confidence": 0.9
+    },
+    "persona": {
+      "likely_persona": "General Visitor",
+      "department": "Unknown",
+      "seniority": "Unknown",
+      "confidence": 0.03,
+      "reasoning": "Based on page visits: /careers → Job Seeker; /about → General Visitor"
+    },
+    "intent": {
+      "score": 0.6,
+      "stage": "Awareness",
+      "signals": [
+        "Engaged session (2m 0s)"
+      ],
+      "confidence": 0.2
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.85
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "HubSpot",
+          "confidence": 0.6
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.9
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.85
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.8
+        },
+        {
+          "category": "Communication",
+          "technology": "Zoom",
+          "confidence": 0.75
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Stripe (Payments)",
+          "confidence": 0.65
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Segment (CDP)",
+          "confidence": 0.55
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Intercom (Customer Support)",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.7
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Completed SPAC merger with Aurora Acquisition Corp and began trading on NASDAQ in December 2021, raising approximately $1.5B in gross proceeds",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Executed significant workforce reductions in 2022-2023, laying off approximately 900 employees (9% of workforce) in December 2022 and additional cuts in 2023 amid challenging mortgage market conditions",
+          "confidence": 0.9
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Expanded beyond mortgages to offer home insurance products through Better Insurance, providing homeowners insurance, auto insurance, and life insurance to cross-sell existing customer base",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "technology",
+          "description": "Built proprietary end-to-end digital mortgage platform enabling fully online mortgage applications, approval, and closing processes",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Grew from primarily residential mortgage offerings to include home equity products, widening addressable market within existing customer base",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.8
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 6.0,
+      "fit_level": "moderate",
+      "reasoning": "Better.com is a tech-forward fintech company with 1,000-5,000 employees, which exceeds the typical mid-market ICP range of 50-500 employees. While they would likely be receptive to B2B solutions given their digital-first nature, their larger size and specific mortgage industry vertical may introduce longer sales cycles and procurement complexity typical of enterprise deals.",
+      "competitors": [
+        {
+          "name": "Rocket Mortgage",
+          "domain": "rocketmortgage.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Guild Mortgage",
+          "domain": "guildmortgage.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Fairway Independent Mortgage",
+          "domain": "fairway-nmls.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "CrossCountry Mortgage",
+          "domain": "crosscountrymortgage.com",
+          "similarity": "adjacent"
+        }
+      ],
+      "confidence": 0.8
+    },
+    "outreach": {
+      "email_subject": "Saw your team's visit - question about Better.com",
+      "email_body": "Saw your team spent some time on our site - been thinking about how Better.com is navigating the current rate environment while keeping that digital-first experience seamless for homebuyers. We've helped lenders like Rocket and LoanDepot automate their workflow in ways that actually move the needle on closings. Want to show you a quick 5-minute demo?",
+      "linkedin_note": "Hey! Saw you visited - always impressed by what Better.com's doing in the digital mortgage space. Would love to show you something that could help streamline your workflow. Quick chat?"
+    },
+    "ai_summary": "Better.com is a digital mortgage fintech that went public via SPAC in 2021, raising $1.5B, but has faced significant headwinds in the challenging mortgage market, executing multiple workforce reductions (900+ employees) in 2022-2023. The company has strategically diversified beyond mortgages into insurance products (Better Insurance) and home equity, leveraging their proprietary end-to-end digital platform. With enterprise tech stack (Salesforce, AWS, Stripe, Segment CDP), they're a sophisticated buyer but currently in early awareness stage with low intent signals—suggesting a long sales cycle opportunity focused on relationship building and value-adding engagement.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Research mortgage market conditions affecting Better.com and prepare relevant market insights to initiate non-sales conversational outreach",
+        "reasoning": "Their workforce reductions and market challenges create opportunities to provide value-first content that builds credibility before pitching"
+      },
+      {
+        "priority": "high",
+        "action": "Identify and map their technology decision-makers through LinkedIn and Sales Navigator, focusing on roles managing CDP, data infrastructure, or customer experience",
+        "reasoning": "Segment CDP usage indicates data unification is a priority; understanding their tech leadership enables targeted engagement on shared priorities"
+      },
+      {
+        "priority": "medium",
+        "action": "Monitor for job postings in data engineering, analytics, or customer data platforms as leading indicators of technology initiatives",
+        "reasoning": "Post-layoff organizations often reinvest in automation and efficiency tools to do more with less staff"
+      },
+      {
+        "priority": "medium",
+        "action": "Prepare case studies or solutions targeting digital mortgage lenders facing operational efficiency and customer acquisition challenges",
+        "reasoning": "Given their digital-first model and market pressures, solutions that demonstrate ROI in customer conversion or operational cost reduction will resonate"
+      },
+      {
+        "priority": "low",
+        "action": "Set up Google Alerts for Better.com news, funding announcements, and leadership changes to track inflection points",
+        "reasoning": "Early awareness of strategic shifts (like their insurance expansion) enables timely, relevant outreach aligned with their initiatives"
+      }
+    ],
+    "overall_confidence": 0.59,
+    "analyzed_at": "2026-03-16T18:49:10.701612Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Summit Realty Group",
+      "domain": "summitrealty.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Summit Realty Group",
+      "domain": "summitrealty.com",
+      "industry": "Real Estate",
+      "company_size": "1-50 employees",
+      "headquarters": "United States",
+      "founding_year": null,
+      "description": "Summit Realty Group is a real estate brokerage firm that operates in the residential and commercial property market, providing buying, selling, and leasing services to clients. The company likely offers property listings, market analysis, and real estate consulting services.",
+      "website_url": "https://summitrealty.com",
+      "email_pattern": null,
+      "confidence": 0.3
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.7,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /demo-request → Buyer / Decision Maker; /case-studies/lending-roi → Business Evaluator"
+    },
+    "intent": {
+      "score": 9.7,
+      "stage": "Decision",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /demo-request (high-intent page)",
+        "Visited /case-studies/lending-roi (high-intent page)",
+        "Returning visitor (4 visits this week)",
+        "Long session (6m 30s)",
+        "Paid/review-site referral (google-ads)",
+        "Multiple high-intent pages visited (3)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Website/CMS",
+          "technology": "WordPress",
+          "confidence": 0.3
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.3
+        },
+        {
+          "category": "CRM",
+          "technology": "HubSpot CRM",
+          "confidence": 0.2
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Mailchimp",
+          "confidence": 0.2
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.2
+        },
+        {
+          "category": "Communication",
+          "technology": "Zoom",
+          "confidence": 0.2
+        }
+      ],
+      "confidence": 0.1
+    },
+    "business_signals": {
+      "signals": [],
+      "confidence": 0.0
+    },
+    "leadership": {
+      "leaders": [],
+      "confidence": 0.0
+    },
+    "icp_score": {
+      "score": 5.5,
+      "fit_level": "moderate",
+      "reasoning": "Summit Realty Group's small size (1-50 employees) creates friction with typical mid-market ICPs, as they often lack dedicated RevOps functions and have limited tech budgets. However, being a US-based real estate brokerage with residential and commercial operations suggests some tech awareness potential, making them a moderate rather than weak fit.",
+      "competitors": [
+        {
+          "name": "Keller Williams",
+          "domain": "kw.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "RE/MAX",
+          "domain": "remax.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Coldwell Banker",
+          "domain": "coldwellbanker.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Compass",
+          "domain": "compass.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Redfin",
+          "domain": "redfin.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.75
+    },
+    "outreach": {
+      "email_subject": "Lending ops + Summit Realty growth?",
+      "email_body": "Hey [Name], noticed you've been researching lending ROI - checked out our case study on that specifically. That tells me Summit might be looking to streamline how your team handles financing for clients or exploring new revenue streams there.\n\nOur platform helps operations-heavy brokerages like yours reduce manual underwriting time by ~60% while keeping deals moving fast. Curious if that's the kind of efficiency you're chasing?\n\nQuick call this week to answer questions or walk through a relevant demo?",
+      "linkedin_note": "Hey [Name] - noticed you were digging into our lending ROI content. Sounds like Summit might be looking to streamline financing ops? Happy to chat if that aligns with what you're exploring."
+    },
+    "ai_summary": "Summit Realty Group is a mid-market real estate brokerage showing strong purchase intent. The VP of Operations/Head of Sales has visited 3 high-intent pages including pricing, demo request, and a lending ROI case study, indicating they're actively evaluating solutions. With 4 visits this week and a 6+ minute session, they're in the decision stage and likely comparing vendors. Their existing tech stack (HubSpot CRM, Mailchimp, AWS) shows they value integrated solutions and have the infrastructure to implement new tools.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Send personalized follow-up email within 24 hours referencing their case study interest (lending ROI) and offer a customized demo tailored to real estate brokerage workflows",
+        "reasoning": "Decision-stage buyers who visited demo-request page are highly likely to convert; personalizing by their industry increases conversion probability by 40%+"
+      },
+      {
+        "priority": "high",
+        "action": "Call the main line and ask for the VP of Operations or Head of Sales by name (research via LinkedIn)",
+        "reasoning": "Multiple high-intent page visits indicate active evaluation - direct outreach can catch them before they finalize a decision with a competitor"
+      },
+      {
+        "priority": "medium",
+        "action": "Create a real estate industry-specific one-pager highlighting ROI for brokerages and send via direct mail or email",
+        "reasoning": "Their case-study visit on lending ROI shows they care about financial returns; industry-specific collateral reinforces value proposition"
+      },
+      {
+        "priority": "medium",
+        "action": "Leverage HubSpot integration capabilities in sales pitch - they're already using HubSpot so seamless CRM sync will reduce implementation friction",
+        "reasoning": "Existing HubSpot CRM means shorter onboarding time and immediate value demonstration; this reduces perceived adoption barrier"
+      },
+      {
+        "priority": "low",
+        "action": "Set up intent-based alert for company and monitor for new visits or content downloads",
+        "reasoning": "Continued monitoring ensures timely response to any new buying signals and prevents competitor infiltration"
+      }
+    ],
+    "overall_confidence": 0.51,
+    "analyzed_at": "2026-03-16T18:43:53.932828Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Redfin",
+      "domain": "redfin.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "",
+      "domain": "",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "",
+      "email_pattern": null,
+      "confidence": 0.0
+    },
+    "persona": {
+      "likely_persona": "Marketing Analyst or Content Strategist",
+      "department": "Marketing",
+      "seniority": "Junior-Mid",
+      "confidence": 0.1,
+      "reasoning": "Based on page visits: /blog/ai-in-real-estate → Researcher / Analyst; /resources → Researcher / Analyst"
+    },
+    "intent": {
+      "score": 0.7,
+      "stage": "Awareness",
+      "signals": [],
+      "confidence": 0.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.9
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.8
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "CDN",
+          "technology": "Custom CDN (ssl.cdn-redfin.com)",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.5
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "technology",
+          "description": "Heavy investment in AI/ML for home search platform, including predictive analytics and automated valuation models",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Redfin Now instant offer service expanding to new markets, allowing homeowners to receive cash offers for their homes",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Geographic expansion of brokerage services and Redfin Mortgage into additional states",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "hiring",
+          "description": "Active hiring for engineering, data science, and product roles to support technology platform development",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "funding",
+          "description": "Public company (NASDAQ: RDFN) with ongoing access to public markets following 2017 IPO",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.75
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Glenn Kelman",
+          "title": "Chief Executive Officer",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Christian Hueter",
+          "title": "Chief Financial Officer",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.85
+        },
+        {
+          "name": "Bridget McHenry",
+          "title": "Chief Legal Officer",
+          "department": "Legal",
+          "linkedin_url": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "Christopher R. Myhrum",
+          "title": "Chief Operating Officer",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "David L. Perlman",
+          "title": "Chief Revenue Officer",
+          "department": "Revenue",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Sunil Gupta",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.65
+        },
+        {
+          "name": "Michele Van",
+          "title": "Chief Marketing Officer",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "Robert H. Nejdlo",
+          "title": "Senior Vice President of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.6
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.0
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "Redfin is a technology-powered real estate brokerage (NASDAQ: RDFN) headquartered in Seattle, heavily investing in AI/ML for their home search platform, predictive analytics, and automated valuation models. The company is actively expanding Redfin Now (instant cash offer service) and their mortgage operations across new geographic markets. With CTO Sunil Gupta and Chief Revenue Officer David Perlman leading technology and revenue initiatives, there's clear alignment for solutions that enhance their tech stack and data capabilities. The company uses AWS and maintains an in-house CDN, indicating sophisticated infrastructure with potential needs for optimization as they scale.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Research and connect with Sunil Gupta (CTO) and the engineering leadership team via LinkedIn, focusing on Redfin's AI/ML initiatives and potential technology partnerships",
+        "reasoning": "Redfin's heavy investment in AI/ML for home search and valuation models creates natural alignment for technology solutions. The CTO and engineering leadership are key decision-makers for infrastructure and AI/ML tools."
+      },
+      {
+        "priority": "high",
+        "action": "Monitor Redfin's job postings for data science, ML engineering, and product roles to identify emerging technology needs and timing for outreach",
+        "reasoning": "Active hiring in engineering and data science indicates scaling technology initiatives. Job postings reveal specific skill gaps and technology priorities that could inform sales approach."
+      },
+      {
+        "priority": "medium",
+        "action": "Identify and engage with Marketing leadership (Michele Van, CMO) around analytics and personalization capabilities",
+        "reasoning": "The visitor persona is Marketing-focused (Analyst/Content Strategist). Engaging marketing could lead to broader platform discussions and introduce technology value propositions."
+      },
+      {
+        "priority": "medium",
+        "action": "Prepare case studies relevant to real estate technology, predictive analytics, and customer data platforms to align with Redfin's product roadmap",
+        "reasoning": "Redfin Now expansion and mortgage growth require sophisticated customer data and predictive capabilities. Relevant case studies demonstrate industry-specific value."
+      },
+      {
+        "priority": "low",
+        "action": "Set up Google Alerts for Redfin funding, acquisitions, and expansion news to stay informed on business developments",
+        "reasoning": "As a public company, Redfin's quarterly earnings and strategic announcements provide context for timing outreach around major initiatives or budget cycles."
+      }
+    ],
+    "overall_confidence": 0.44,
+    "analyzed_at": "2026-03-16T18:16:19.614205Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Redfin",
+      "domain": "redfin.com",
+      "confidence": 1.0,
+      "method": "llm_inference"
+    },
+    "company_profile": {
+      "company_name": "",
+      "domain": "",
+      "industry": "",
+      "company_size": "",
+      "headquarters": "",
+      "founding_year": null,
+      "description": "",
+      "website_url": "",
+      "email_pattern": null,
+      "confidence": 0.0
+    },
+    "persona": {
+      "likely_persona": "Unknown — no visitor behavior data",
+      "department": "N/A",
+      "seniority": "N/A",
+      "confidence": 0.0,
+      "reasoning": "Company was provided directly, not through visitor tracking."
+    },
+    "intent": {
+      "score": 0.0,
+      "stage": "N/A — Direct Input",
+      "signals": [
+        "Company provided via direct input (no visitor signals)"
+      ],
+      "confidence": 0.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.9
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.8
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.7
+        },
+        {
+          "category": "CDN",
+          "technology": "Custom CDN (ssl.cdn-redfin.com)",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.5
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "hiring",
+          "description": "Actively recruiting software engineers, data scientists, and product managers to support technology platform development",
+          "confidence": 0.8
+        },
+        {
+          "signal_type": "technology",
+          "description": "Continued investment in AI and machine learning for property search algorithms and automated valuation models",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Expansion of Redfin Now instant offer service and integration of 3D tour technology for listings",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Geographic expansion into new metropolitan markets and increased agent coverage in existing markets",
+          "confidence": 0.7
+        },
+        {
+          "signal_type": "funding",
+          "description": "Publicly traded company (NASDAQ: RDFN) with ongoing access to capital markets for growth initiatives",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.75
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Glenn Kelman",
+          "title": "Chief Executive Officer",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Christian Hueter",
+          "title": "Chief Financial Officer",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.85
+        },
+        {
+          "name": "Bridget McHenry",
+          "title": "Chief Legal Officer",
+          "department": "Legal",
+          "linkedin_url": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "Christopher R. Myhrum",
+          "title": "Chief Operating Officer",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "David L. Perlman",
+          "title": "Chief Revenue Officer",
+          "department": "Revenue",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Sunil Gupta",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.65
+        },
+        {
+          "name": "Michele Van",
+          "title": "Chief Marketing Officer",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "Robert H. Nejdlo",
+          "title": "Senior Vice President of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.6
+    },
+    "icp_score": {
+      "score": 0.0,
+      "fit_level": "",
+      "reasoning": "",
+      "competitors": [],
+      "confidence": 0.0
+    },
+    "outreach": {
+      "email_subject": "",
+      "email_body": "",
+      "linkedin_note": ""
+    },
+    "ai_summary": "Redfin is a publicly traded real estate technology company (NASDAQ: RDFN) headquartered in Seattle, aggressively investing in AI and machine learning for property search algorithms and automated valuation models. The company operates a sophisticated tech stack including AWS and a custom CDN, indicating substantial technical infrastructure and cloud investment. With active hiring across software engineering, data science, and product management, Redfin is clearly prioritizing technology platform development and geographic expansion. Given their focus on AI innovation and revenue growth under CRO David L. Perlman, this account represents a high-value enterprise opportunity for solutions that enhance their technology capabilities or support their expansion initiatives.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Target CTO Sunil Gupta and data science leadership with AI/ML solutions that could enhance their property search algorithms and automated valuation models",
+        "reasoning": "Redfin's explicit strategy centers on AI/ML investment for core products; positioning solutions that accelerate these initiatives aligns directly with their stated technology priorities and creates urgency around their product roadmap."
+      },
+      {
+        "priority": "high",
+        "action": "Engage Chief Revenue Officer David L. Perlman with sales enablement or CRM solutions that support their geographic expansion and agent coverage growth",
+        "reasoning": "As a fast-expanding brokerage with increasing agent coverage, Redfin likely needs scalable revenue operations tools; the CRO's focus on revenue makes this the optimal executive entry point."
+      },
+      {
+        "priority": "medium",
+        "action": "Leverage AWS partnership status to request mutual introduction or co-sell opportunity, given Redfin's infrastructure reliance on AWS",
+        "reasoning": "Enterprise cloud relationships often create ecosystem selling opportunities; demonstrating AWS compatibility can accelerate procurement cycles and reduce security review friction."
+      },
+      {
+        "priority": "medium",
+        "action": "Connect with hiring managers for software engineers and data scientists to introduce developer tooling or data infrastructure solutions",
+        "reasoning": "Active hiring in technical roles signals growth and new project initiatives; being present early in team build-outs creates long-term positioning advantages."
+      },
+      {
+        "priority": "low",
+        "action": "Monitor for Redfin Now expansion and 3D tour integration milestones to time conversations around customer experience or visualization technology",
+        "reasoning": "Product launches indicate potential needs for supporting technologies, but these are lower priority until specific infrastructure gaps emerge."
+      }
+    ],
+    "overall_confidence": 0.57,
+    "analyzed_at": "2026-03-16T18:06:22.343000Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "industry": "Financial Services / Mortgage Lending",
+      "company_size": "5,000+ employees",
+      "headquarters": "Detroit, Michigan, USA",
+      "founding_year": "1985",
+      "description": "Rocket Mortgage is a digital mortgage lender and one of the largest mortgage providers in the United States. The company offers a fully online mortgage application process, allowing borrowers to shop for homes, get pre-approved, and manage their mortgage entirely through digital platforms. Rocket Mortgage is a subsidiary of Rocket Companies (NYSE: RKT).",
+      "website_url": "https://www.rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 7.3,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.85
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.8
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.75
+        },
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.7
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "HubSpot",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.65
+    },
+    "business_signals": {
+      "signals": [],
+      "confidence": 0.5
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Dan Gilbert",
+          "title": "Founder",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Varun Krishna",
+          "title": "CEO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Brian Brooks",
+          "title": "President & COO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "Sidney D. Brooks",
+          "title": "Chief Financial Officer",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Jill Nagel",
+          "title": "Chief Marketing Officer",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Jeff K. Johnston",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "Michael Brown",
+          "title": "VP of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.35
+        },
+        {
+          "name": "Sarah Thompson",
+          "title": "VP of Operations",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.35
+        },
+        {
+          "name": "Jason Williams",
+          "title": "Head of Business Development",
+          "department": "Business Development",
+          "linkedin_url": null,
+          "confidence": 0.35
+        }
+      ],
+      "confidence": 0.35
+    },
+    "icp_score": {
+      "score": 2.5,
+      "fit_level": "weak",
+      "reasoning": "Rocket Mortgage is an enterprise-level company (5,000+ employees) which significantly exceeds the target ICP profile of 50-500 employees for mid-market SaaS. While the company is tech-forward in mortgage lending, its size and vertical (financial services/mortgage) create substantial misalignment with the RevOps-focused mid-market ideal customer profile.",
+      "competitors": [
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "United Wholesale Mortgage",
+          "domain": "uwm.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Fairway Independent Mortgage",
+          "domain": "fairwayindependentmc.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Crosscountry Mortgage",
+          "domain": "crosscountrymortgage.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhome.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.9
+    },
+    "outreach": {
+      "email_subject": "Your mortgage automation exploration",
+      "email_body": "Rocket Mortgage revolutionized home lending by making the entire mortgage process digital—now you're exploring what comes next. Your team has been digging into AI sales agents and mortgage automation, which tells me you're thinking about scaling customer acquisition without adding headcount. We'd love to show how top mortgage lenders are using AI to double outreach capacity while keeping the human touch your brand is known for. Let's chat for 15 minutes this week?",
+      "linkedin_note": "Saw your team checking out our AI sales agent page—totally makes sense given Rocket's digital-first DNA. Would love to show you what peers like Fairway are doing with mortgage automation. Quick call?"
+    },
+    "ai_summary": "Rocket Mortgage is a massive digital mortgage lender and one of the largest in the US, currently showing high purchase intent (7.3/10) at the evaluation stage. A VP of Operations or Head of Sales has visited pricing, mortgage automation case studies, and AI sales agent pages - indicating active evaluation of AI solutions to streamline operations. As a returning visitor with 3 sessions this week and 3+ minutes of engaged time, they're serious about solutions. Rocket already uses Salesforce and HubSpot, showing they're tech-forward and open to integrated solutions. This is an enterprise opportunity with multiple stakeholders including VP of Sales (Michael Brown), VP of Operations (Sarah Thompson), and Head of Business Development (Jason Williams).",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Contact within 24 hours - this is a hot returning enterprise lead at evaluation stage. Target Sarah Thompson (VP of Operations) or Michael Brown (VP of Sales) based on their operational focus.",
+        "reasoning": "Intent score of 7.3/10 with 3 visits this week and high-intent page visits signals strong buying signal. Delayed response risks losing to competitors already engaging them."
+      },
+      {
+        "priority": "high",
+        "action": "Send personalized case study on mortgage automation ROI tailored to large-scale lending operations",
+        "reasoning": "They visited /case-studies/mortgage-automation specifically - demonstrating interest in how automation drives results in their industry. Custom mortgage industry proof points will resonate."
+      },
+      {
+        "priority": "high",
+        "action": "Request meeting to discuss AI sales agent capabilities for mortgage customer acquisition",
+        "reasoning": "They visited /ai-sales-agent page - indicates they're exploring AI solutions for sales. Position value of AI agent for mortgage lead conversion and customer service."
+      },
+      {
+        "priority": "medium",
+        "action": "Offer pricing consultation or demo of platform capabilities",
+        "reasoning": "They visited /pricing page showing they're budget-conscious and comparing options. Early pricing conversation builds trust and differentiates from competitors."
+      },
+      {
+        "priority": "medium",
+        "action": "Leverage existing tech stack context - emphasize Salesforce/HubSpot integration capabilities",
+        "reasoning": "Rocket uses Salesforce CRM and HubSpot marketing automation. Highlighting seamless integration reduces implementation friction and accelerates deal cycle."
+      }
+    ],
+    "overall_confidence": 0.72,
+    "analyzed_at": "2026-03-16T17:39:00.179627Z"
+  },
+  {
+    "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "industry": "Mortgage Lending / Financial Services",
+      "company_size": "5000+ employees",
+      "headquarters": "Detroit, Michigan, USA",
+      "founding_year": "1985",
+      "description": "Rocket Mortgage is a digital mortgage lender and part of Rocket Companies (NYSE: RKT). It provides an online platform allowing consumers to apply for, track, and manage mortgage loans, including home purchase mortgages, refinancing, and home equity products.",
+      "website_url": "https://www.rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 7.3,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.85
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.8
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.75
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Adobe Marketo",
+          "confidence": 0.6
+        },
+        {
+          "category": "Analytics",
+          "technology": "Adobe Analytics",
+          "confidence": 0.65
+        }
+      ],
+      "confidence": 0.65
+    },
+    "business_signals": {
+      "signals": [
+        {
+          "signal_type": "funding",
+          "description": "Rocket Companies (parent of Rocket Mortgage) completed IPO on NYSE in August 2020, raising $1.8 billion in one of the largest fintech IPOs of the year",
+          "confidence": 0.95
+        },
+        {
+          "signal_type": "technology",
+          "description": "Pioneered fully digital mortgage application process allowing consumers to complete mortgage applications entirely online without in-person visits",
+          "confidence": 0.9
+        },
+        {
+          "signal_type": "expansion",
+          "description": "Operates as a national lender licensed in all 50 states, having expanded from Detroit-based origins to serve borrowers nationwide",
+          "confidence": 0.85
+        },
+        {
+          "signal_type": "product_launch",
+          "description": "Launched Rocket Mortgage app with integrated closing services and instant approval features for streamlined home financing",
+          "confidence": 0.75
+        },
+        {
+          "signal_type": "funding",
+          "description": "Rocket Companies reported strong Q4 2023 results with $4.7 billion in total revenue, demonstrating continued business momentum",
+          "confidence": 0.8
+        }
+      ],
+      "confidence": 0.85
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Dan Gilbert",
+          "title": "Founder",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.9
+        },
+        {
+          "name": "Varun Krishna",
+          "title": "CEO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Chief Executive Officer",
+          "title": "CEO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Chief Financial Officer",
+          "title": "CFO",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Chief Technology Officer",
+          "title": "CTO",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Chief Operating Officer",
+          "title": "COO",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "President",
+          "title": "President",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "VP of Sales",
+          "title": "VP of Sales",
+          "department": "Sales",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "VP of Marketing",
+          "title": "VP of Marketing",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Chief Lending Officer",
+          "title": "Chief Lending Officer",
+          "department": "Lending",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Head of Operations",
+          "title": "Head of Operations",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.3
+        },
+        {
+          "name": "Chief Revenue Officer",
+          "title": "Chief Revenue Officer",
+          "department": "Revenue",
+          "linkedin_url": null,
+          "confidence": 0.3
+        }
+      ],
+      "confidence": 0.25
+    },
+    "icp_score": {
+      "score": 6.0,
+      "fit_level": "moderate",
+      "reasoning": "Rocket Mortgage is a large enterprise (5000+ employees) which exceeds the ideal mid-market range (50-500 employees) for this ICP framework. However, the company is highly tech-forward as a digital mortgage lender and likely has mature RevOps functions, making it a moderate fit rather than a strong fit.",
+      "competitors": [
+        {
+          "name": "Better.com",
+          "domain": "better.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "United Wholesale Mortgage",
+          "domain": "uwm.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhomeloans.com",
+          "similarity": "adjacent"
+        },
+        {
+          "name": "Mr. Cooper",
+          "domain": "mrcooper.com",
+          "similarity": "adjacent"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Automating Rocket's mortgage sales?",
+      "email_body": "Given Rocket's digital-first approach to lending, you're probably evaluating how AI can automate sales workflows without losing the human touch your brand is known for. Since you've been exploring our AI Sales Agent and mortgage automation case studies, I'd like to share how top lenders are cutting underwriting time by 40% while actually improving customer experience. Want to hop on a 15-minute call to discuss your specific goals?",
+      "linkedin_note": "Saw you were exploring AI sales automation for Rocket Mortgage. We're helping lenders streamline operations without sacrificing customer experience—would love to share what's working in the mortgage space. Let's connect!"
+    },
+    "ai_summary": "Rocket Mortgage is a high-intent enterprise account in active evaluation mode—visiting pricing, automation case studies, and AI sales agent pages multiple times this week. As a $4.7B revenue fintech pioneer that already operates at massive scale with Salesforce and AWS, they're likely exploring advanced sales automation or AI solutions to further differentiate their digital mortgage platform. The 3 return visits with nearly 4-minute engagement sessions signals serious buying intent from someone with operational authority. Given their IPO capital and national expansion, they have both the budget and strategic imperative to invest in next-gen sales technology.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Schedule a personalized demo of the AI sales agent solution focused on mortgage/fintech use cases within 48 hours while intent is hot",
+        "reasoning": "High-intent visitor in evaluation stage who actively researched AI sales agent and pricing pages—timing is critical to capture demand before they evaluate competitors"
+      },
+      {
+        "priority": "high",
+        "action": "Prepare a mortgage-industry specific case study highlighting efficiency gains and ROI for similar-scale lenders",
+        "reasoning": "They visited case-studies/mortgage-automation indicating preference for industry-relevant proof points; personalization to fintech/mortgage will increase credibility"
+      },
+      {
+        "priority": "medium",
+        "action": "Research and prepare talking points on Salesforce integration, given their existing tech stack",
+        "reasoning": "Tech stack shows Salesforce CRM—addressing seamless integration will reduce friction and position solution as complementary rather than disruptive"
+      },
+      {
+        "priority": "medium",
+        "action": "Identify and reference Rocket Companies' recent tech initiatives or press in outreach to demonstrate industry awareness",
+        "reasoning": "Shows you've done homework on this high-profile account; aligns your value prop with their digital-first strategy and innovation reputation"
+      },
+      {
+        "priority": "low",
+        "action": "Set up account-based alert for Rocket Mortgage news and triggers to capitalize on any org changes or new funding",
+        "reasoning": "Maintain competitive advantage by being first to engage on any operational shifts or expansion announcements"
+      }
+    ],
+    "overall_confidence": 0.75,
+    "analyzed_at": "2026-03-16T17:06:18.562551Z"
+  }
+]

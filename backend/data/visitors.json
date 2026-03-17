@@ -1,0 +1,167 @@
+[
+  {
+    "visitor_id": "V-001",
+    "ip_address": "34.201.114.92",
+    "pages_visited": ["/pricing", "/case-studies/mortgage-automation", "/ai-sales-agent"],
+    "time_on_site_seconds": 222,
+    "visits_this_week": 3,
+    "referral_source": "google-ads",
+    "device": "Desktop",
+    "location": "Detroit, MI, USA",
+    "timestamps": ["2026-03-13T10:23:00Z", "2026-03-14T14:05:00Z", "2026-03-15T09:12:00Z"]
+  },
+  {
+    "visitor_id": "V-002",
+    "ip_address": "52.94.236.11",
+    "pages_visited": ["/blog/ai-in-real-estate", "/resources"],
+    "time_on_site_seconds": 95,
+    "visits_this_week": 1,
+    "referral_source": "organic-google",
+    "device": "Desktop",
+    "location": "Seattle, WA, USA",
+    "timestamps": ["2026-03-15T11:30:00Z"]
+  },
+  {
+    "visitor_id": "V-003",
+    "ip_address": "18.205.93.100",
+    "pages_visited": ["/pricing", "/features", "/integrations", "/case-studies"],
+    "time_on_site_seconds": 480,
+    "visits_this_week": 5,
+    "referral_source": "linkedin-ad",
+    "device": "Desktop",
+    "location": "New York, NY, USA",
+    "timestamps": ["2026-03-11T08:00:00Z", "2026-03-12T09:15:00Z", "2026-03-13T10:30:00Z", "2026-03-14T14:00:00Z", "2026-03-15T08:45:00Z"]
+  },
+  {
+    "visitor_id": "V-004",
+    "ip_address": "104.196.52.77",
+    "pages_visited": ["/docs/api", "/docs/webhooks", "/integrations"],
+    "time_on_site_seconds": 310,
+    "visits_this_week": 2,
+    "referral_source": "github",
+    "device": "Desktop",
+    "location": "San Francisco, CA, USA",
+    "timestamps": ["2026-03-14T16:20:00Z", "2026-03-15T10:00:00Z"]
+  },
+  {
+    "visitor_id": "V-005",
+    "ip_address": "198.51.100.44",
+    "pages_visited": ["/about", "/blog/market-trends"],
+    "time_on_site_seconds": 60,
+    "visits_this_week": 1,
+    "referral_source": "direct",
+    "device": "Mobile",
+    "location": "Chicago, IL, USA",
+    "timestamps": ["2026-03-15T12:00:00Z"]
+  },
+  {
+    "visitor_id": "V-006",
+    "ip_address": "172.217.14.206",
+    "pages_visited": ["/pricing", "/demo-request", "/case-studies/lending-roi"],
+    "time_on_site_seconds": 390,
+    "visits_this_week": 4,
+    "referral_source": "google-ads",
+    "device": "Desktop",
+    "location": "Austin, TX, USA",
+    "timestamps": ["2026-03-12T11:00:00Z", "2026-03-13T15:00:00Z", "2026-03-14T09:30:00Z", "2026-03-15T13:15:00Z"]
+  },
+  {
+    "visitor_id": "V-007",
+    "ip_address": "13.107.42.14",
+    "pages_visited": ["/features", "/pricing", "/security"],
+    "time_on_site_seconds": 275,
+    "visits_this_week": 2,
+    "referral_source": "bing-ads",
+    "device": "Desktop",
+    "location": "Phoenix, AZ, USA",
+    "timestamps": ["2026-03-14T08:45:00Z", "2026-03-15T14:00:00Z"]
+  },
+  {
+    "visitor_id": "V-008",
+    "ip_address": "76.223.67.89",
+    "pages_visited": ["/blog/ai-sales-tips"],
+    "time_on_site_seconds": 45,
+    "visits_this_week": 1,
+    "referral_source": "twitter",
+    "device": "Mobile",
+    "location": "Miami, FL, USA",
+    "timestamps": ["2026-03-15T18:30:00Z"]
+  },
+  {
+    "visitor_id": "V-009",
+    "ip_address": "35.186.224.33",
+    "pages_visited": ["/pricing", "/ai-sales-agent", "/case-studies", "/demo-request"],
+    "time_on_site_seconds": 520,
+    "visits_this_week": 6,
+    "referral_source": "google-ads",
+    "device": "Desktop",
+    "location": "Dallas, TX, USA",
+    "timestamps": ["2026-03-10T10:00:00Z", "2026-03-11T11:00:00Z", "2026-03-12T09:30:00Z", "2026-03-13T14:00:00Z", "2026-03-14T08:15:00Z", "2026-03-15T10:45:00Z"]
+  },
+  {
+    "visitor_id": "V-010",
+    "ip_address": "23.22.110.56",
+    "pages_visited": ["/careers", "/about"],
+    "time_on_site_seconds": 120,
+    "visits_this_week": 1,
+    "referral_source": "linkedin-organic",
+    "device": "Desktop",
+    "location": "Boston, MA, USA",
+    "timestamps": ["2026-03-15T09:00:00Z"]
+  },
+  {
+    "visitor_id": "V-011",
+    "ip_address": "54.239.28.85",
+    "pages_visited": ["/features", "/integrations", "/pricing"],
+    "time_on_site_seconds": 340,
+    "visits_this_week": 3,
+    "referral_source": "capterra",
+    "device": "Desktop",
+    "location": "Denver, CO, USA",
+    "timestamps": ["2026-03-13T13:00:00Z", "2026-03-14T10:30:00Z", "2026-03-15T15:00:00Z"]
+  },
+  {
+    "visitor_id": "V-012",
+    "ip_address": "199.36.153.10",
+    "pages_visited": ["/blog/ai-agents-explained", "/resources/whitepaper"],
+    "time_on_site_seconds": 180,
+    "visits_this_week": 2,
+    "referral_source": "organic-google",
+    "device": "Tablet",
+    "location": "Portland, OR, USA",
+    "timestamps": ["2026-03-14T17:00:00Z", "2026-03-15T11:00:00Z"]
+  },
+  {
+    "visitor_id": "V-013",
+    "ip_address": "157.240.1.35",
+    "pages_visited": ["/pricing", "/case-studies", "/contact-sales"],
+    "time_on_site_seconds": 410,
+    "visits_this_week": 4,
+    "referral_source": "facebook-ad",
+    "device": "Desktop",
+    "location": "Charlotte, NC, USA",
+    "timestamps": ["2026-03-12T08:30:00Z", "2026-03-13T10:00:00Z", "2026-03-14T14:30:00Z", "2026-03-15T09:45:00Z"]
+  },
+  {
+    "visitor_id": "V-014",
+    "ip_address": "64.233.160.19",
+    "pages_visited": ["/docs/api", "/docs/sdk", "/changelog"],
+    "time_on_site_seconds": 260,
+    "visits_this_week": 2,
+    "referral_source": "stackoverflow",
+    "device": "Desktop",
+    "location": "Raleigh, NC, USA",
+    "timestamps": ["2026-03-14T11:15:00Z", "2026-03-15T16:00:00Z"]
+  },
+  {
+    "visitor_id": "V-015",
+    "ip_address": "151.101.1.140",
+    "pages_visited": ["/pricing", "/features", "/ai-sales-agent", "/demo-request", "/case-studies/fintech"],
+    "time_on_site_seconds": 600,
+    "visits_this_week": 7,
+    "referral_source": "google-ads",
+    "device": "Desktop",
+    "location": "San Diego, CA, USA",
+    "timestamps": ["2026-03-09T10:00:00Z", "2026-03-10T09:00:00Z", "2026-03-11T11:30:00Z", "2026-03-12T08:45:00Z", "2026-03-13T14:15:00Z", "2026-03-14T10:00:00Z", "2026-03-15T08:30:00Z"]
+  }
+]

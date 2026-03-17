@@ -1,0 +1,17 @@
+{
+  "34.201.114.92":   { "company": "Rocket Mortgage",    "domain": "rocketmortgage.com" },
+  "52.94.236.11":    { "company": "Redfin",             "domain": "redfin.com" },
+  "18.205.93.100":   { "company": "Compass Real Estate","domain": "compass.com" },
+  "104.196.52.77":   { "company": "Stripe",             "domain": "stripe.com" },
+  "198.51.100.44":   { "company": "BrightPath Lending", "domain": "brightpathlending.com" },
+  "172.217.14.206":  { "company": "Summit Realty Group", "domain": "summitrealty.com" },
+  "13.107.42.14":    { "company": "loanDepot",          "domain": "loandepot.com" },
+  "76.223.67.89":    { "company": "Zillow",             "domain": "zillow.com" },
+  "35.186.224.33":   { "company": "United Wholesale Mortgage", "domain": "uwm.com" },
+  "23.22.110.56":    { "company": "Better.com",         "domain": "better.com" },
+  "54.239.28.85":    { "company": "Guaranteed Rate",    "domain": "rate.com" },
+  "199.36.153.10":   { "company": "Opendoor",           "domain": "opendoor.com" },
+  "157.240.1.35":    { "company": "Keller Williams",    "domain": "kw.com" },
+  "64.233.160.19":   { "company": "Blend Labs",         "domain": "blend.com" },
+  "151.101.1.140":   { "company": "LendingTree",        "domain": "lendingtree.com" }
+}
