@@ -28,8 +28,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Install Playwright browsers
 RUN python -m playwright install chromium --with-deps
 
-# Copy frontend and build it
-COPY frontend/package*.json frontend/
+# Copy entire frontend and build it
+COPY frontend/ ./frontend/
 WORKDIR /app/frontend
 RUN npm install && npm run build
 WORKDIR /app
