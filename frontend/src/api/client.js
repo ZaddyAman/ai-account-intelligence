@@ -19,6 +19,45 @@ export async function analyzeVisitor(visitor) {
   return res.json();
 }
 
+export async function analyzeVisitorStream(visitor, onProgress) {
+  // Use streaming endpoint for real-time progress
+  const response = await fetch(`${API_BASE}/analyze/visitor/stream`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(visitor),
+  });
+
+  if (!response.ok) throw new Error('Analysis failed');
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    const chunk = decoder.decode(value);
+    const lines = chunk.split('\n');
+
+    for (const line of lines) {
+      if (line.startsWith('data: ')) {
+        try {
+          const data = JSON.parse(line.slice(6));
+          if (onProgress) onProgress(data);
+
+          if (data.step === 'DONE' && data.result) {
+            return data.result;
+          }
+        } catch (e) {
+          // Skip invalid JSON
+        }
+      }
+    }
+  }
+
+  throw new Error('Stream ended without result');
+}
+
 export async function analyzeCompany(companyName, domain = null) {
   const res = await fetch(`${API_BASE}/analyze/company`, {
     method: 'POST',
@@ -27,6 +66,42 @@ export async function analyzeCompany(companyName, domain = null) {
   });
   if (!res.ok) throw new Error('Analysis failed');
   return res.json();
+}
+
+// Streaming version with progress callback
+export async function analyzeCompanyStream(companyName, domain = null, onProgress) {
+  const query = domain ? `${companyName},${domain}` : companyName;
+  const response = await fetch(`${API_BASE}/analyze/stream?q=${encodeURIComponent(query)}`);
+
+  if (!response.ok) throw new Error('Analysis failed');
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    const chunk = decoder.decode(value);
+    const lines = chunk.split('\n');
+
+    for (const line of lines) {
+      if (line.startsWith('data: ')) {
+        try {
+          const data = JSON.parse(line.slice(6));
+          if (onProgress) onProgress(data);
+
+          if (data.step === 'DONE' && data.result) {
+            return data.result;
+          }
+        } catch (e) {
+          // Skip invalid JSON
+        }
+      }
+    }
+  }
+
+  throw new Error('Stream ended without result');
 }
 
 export async function analyzeBatch(companies) {

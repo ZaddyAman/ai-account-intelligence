@@ -1,6 +1,222 @@
 [
   {
     "company_identification": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "confidence": 0.95,
+      "method": "ip_lookup"
+    },
+    "company_profile": {
+      "company_name": "Rocket Mortgage",
+      "domain": "rocketmortgage.com",
+      "industry": "Mortgage Lending & Financial Services",
+      "company_size": "10,000+ employees",
+      "headquarters": "Detroit, Michigan, USA",
+      "founding_year": "1985",
+      "description": "Rocket Mortgage is a leading digital mortgage lender and part of Rocket Companies (NYSE: RKT). Founded as Rock Financial in 1985 and rebranded to Rocket Mortgage in 2011, the company offers online mortgage applications, home loans, and refinancing services. It is one of the largest mortgage lenders in the United States.",
+      "website_url": "https://www.rocketmortgage.com",
+      "email_pattern": null,
+      "confidence": 0.95
+    },
+    "persona": {
+      "likely_persona": "VP of Operations or Head of Sales",
+      "department": "Operations",
+      "seniority": "Senior",
+      "confidence": 0.3,
+      "reasoning": "Based on page visits: /pricing → Buyer / Decision Maker; /case-studies/mortgage-automation → Business Evaluator; /ai-sales-agent → Sales Leader"
+    },
+    "intent": {
+      "score": 6.6,
+      "stage": "Evaluation",
+      "signals": [
+        "Visited /pricing (high-intent page)",
+        "Visited /case-studies/mortgage-automation (high-intent page)",
+        "Visited /ai-sales-agent (high-intent page)",
+        "Returning visitor (3 visits this week)",
+        "Engaged session (3m 42s)",
+        "Paid/review-site referral (google-ads)"
+      ],
+      "confidence": 1.0
+    },
+    "tech_stack": {
+      "items": [
+        {
+          "category": "CRM",
+          "technology": "Salesforce",
+          "confidence": 0.9
+        },
+        {
+          "category": "Analytics",
+          "technology": "Google Analytics",
+          "confidence": 0.85
+        },
+        {
+          "category": "Cloud/Hosting",
+          "technology": "AWS",
+          "confidence": 0.8
+        },
+        {
+          "category": "Marketing Automation",
+          "technology": "Marketo",
+          "confidence": 0.7
+        },
+        {
+          "category": "Website/CMS",
+          "technology": "Custom",
+          "confidence": 0.75
+        },
+        {
+          "category": "Communication",
+          "technology": "Slack",
+          "confidence": 0.75
+        },
+        {
+          "category": "Communication",
+          "technology": "Zoom",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Salesforce Marketing Cloud",
+          "confidence": 0.7
+        },
+        {
+          "category": "Other notable technologies",
+          "technology": "Adobe Experience Cloud",
+          "confidence": 0.65
+        }
+      ],
+      "confidence": 0.75
+    },
+    "business_signals": {
+      "signals": [],
+      "confidence": 0.1
+    },
+    "leadership": {
+      "leaders": [
+        {
+          "name": "Varun Krishna",
+          "title": "CEO",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.85
+        },
+        {
+          "name": "Dan Gilbert",
+          "title": "Founder & Chairman",
+          "department": "Executive",
+          "linkedin_url": null,
+          "confidence": 0.95
+        },
+        {
+          "name": "Bill Emerson",
+          "title": "CFO",
+          "department": "Finance",
+          "linkedin_url": null,
+          "confidence": 0.8
+        },
+        {
+          "name": "Genefa Murphy",
+          "title": "CMO",
+          "department": "Marketing",
+          "linkedin_url": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "Austin Arensberg",
+          "title": "Chief Strategy Officer",
+          "department": "Strategy",
+          "linkedin_url": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "Steve T. O'Hara",
+          "title": "President of Mortgage",
+          "department": "Operations",
+          "linkedin_url": null,
+          "confidence": 0.65
+        },
+        {
+          "name": "Praveen K. Chand",
+          "title": "Chief Technology Officer",
+          "department": "Technology",
+          "linkedin_url": null,
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.75
+    },
+    "icp_score": {
+      "score": 2.5,
+      "fit_level": "weak",
+      "reasoning": "Rocket Mortgage is a 10,000+ employee enterprise company, which is significantly larger than the typical mid-market ICP (50-500 employees). While they are tech-forward as a digital mortgage lender, their enterprise scale and financial services vertical create substantial misalignment for most mid-market SaaS solutions. The size differential typically means longer sales cycles, different procurement processes, and often专属 enterprise pricing tiers that don't align with mid-market-focused products.",
+      "competitors": [
+        {
+          "name": "LoanDepot",
+          "domain": "loandepot.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "United Wholesale Mortgage",
+          "domain": "uwm.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Fairway Independent Mortgage",
+          "domain": "fairwaymc.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Caliber Home Loans",
+          "domain": "caliberhomeloans.com",
+          "similarity": "direct"
+        },
+        {
+          "name": "Rocket Companies (Parent)",
+          "domain": "rocketcompanies.com",
+          "similarity": "direct"
+        }
+      ],
+      "confidence": 0.85
+    },
+    "outreach": {
+      "email_subject": "Your next mortgage ops frontier",
+      "email_body": "Rocket Mortgage basically wrote the book on digital lending, but I'm guessing the challenge now is what happens after the online application - lead follow-up, pipeline management, the ops work that doesn't scale as cleanly. That's where AI sales agents are making a real dent for lenders in your space. Up for a quick chat about what you're trying to solve?",
+      "linkedin_note": "Saw your team checking out our AI sales agent page - solid timing. Would love to chat about how we're helping mortgage lenders automate without losing the personal touch. Quick 15?"
+    },
+    "ai_summary": "Rocket Mortgage is a digitally-forward mortgage giant actively evaluating operational solutions. The visitor (likely VP of Operations or Head of Sales Ops) is specifically researching AI sales agents, mortgage automation, and pricing — indicating they're looking to streamline or automate customer acquisition and sales processes. With 3 visits this week and high engagement (3m+), they're in active evaluation mode. Their tech stack includes Salesforce, Marketo, and Adobe Experience Cloud, showing they invest heavily in enterprise solutions and have sophisticated buying processes. This is a high-value enterprise target with significant potential deal size given their scale and mortgage industry revenue potential.",
+    "recommended_actions": [
+      {
+        "priority": "high",
+        "action": "Schedule a personalized demo focused on AI sales agents for mortgage lending, specifically addressing lead qualification and customer inquiry automation",
+        "reasoning": "The visitor explicitly visited /ai-sales-agent and /case-studies/mortgage-automation — direct signals they're looking for operational automation in their sales process. Demo should highlight mortgage industry use cases."
+      },
+      {
+        "priority": "high",
+        "action": "Leverage Varun Krishna (CEO) and Praveen K. Chand (CTO) as executive targets — send personalized LinkedIn connection requests or executive outreach",
+        "reasoning": "Rocket Mortgage is a household name in fintech. Engaging leadership directly, especially the CEO and CTO who drive tech innovation, can accelerate deal velocity. Reference their public commitment to digital transformation."
+      },
+      {
+        "priority": "medium",
+        "action": "Create a custom ROI case study for mortgage lenders showing cost savings from AI automation in lead handling",
+        "reasoning": "The visitor is in evaluation stage and visited /pricing — they need concrete financial justification. A mortgage-specific ROI model will address their decision criteria."
+      },
+      {
+        "priority": "medium",
+        "action": "Target Bill Emerson (CFO) and Steve T. O'Hara (President of Mortgage) in multi-threading outreach",
+        "reasoning": "Given the company size and mortgage operations complexity, deals require alignment between Operations, Finance, and Business leadership. Build coalition across stakeholders."
+      },
+      {
+        "priority": "low",
+        "action": "Deploy retargeting ads featuring mortgage automation case studies on Google Ads and LinkedIn",
+        "reasoning": "They arrived via Google Ads and are returning visitors. Keep brand top-of-mind with industry-specific social proof while sales team executes outbound."
+      }
+    ],
+    "overall_confidence": 0.73,
+    "analyzed_at": "2026-03-17T13:28:00.388115Z"
+  },
+  {
+    "company_identification": {
       "company_name": "Tenerity",
       "domain": "tenerity.com",
       "confidence": 0.85,

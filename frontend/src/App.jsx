@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchVisitors, analyzeVisitor, analyzeCompany, analyzeBatch, fetchHistory, clearHistory } from './api/client';
+import { fetchVisitors, analyzeVisitor, analyzeVisitorStream, analyzeCompany, analyzeCompanyStream, analyzeBatch, fetchHistory, clearHistory } from './api/client';
 
 /* ═══════════════════════════════════════════════════════
    App — AI Account Intelligence Dashboard
@@ -14,6 +14,7 @@ export default function App() {
   const [results, setResults] = useState(null);
   const [history, setHistory] = useState(() => []);
   const [error, setError] = useState('');
+  const [progress, setProgress] = useState(null); // Track analysis progress
 
   useEffect(() => {
     fetchVisitors()
@@ -43,18 +44,28 @@ export default function App() {
     setLoading(true);
     setError('');
     setResults(null);
+    setProgress({ step: 'START', status: 'in_progress', message: 'Starting analysis...' });
+
+    const handleProgress = (data) => {
+      setProgress(data);
+    };
+
     try {
       if (mode === 'visitor' && selectedVisitor) {
-        const res = await analyzeVisitor(selectedVisitor);
+        const res = await analyzeVisitorStream(selectedVisitor, handleProgress);
         setResults(res);
       } else if (mode === 'company' && companyText.trim()) {
         const lines = companyText.trim().split('\n').filter(l => l.trim());
         if (lines.length === 1) {
-          const res = await analyzeCompany(lines[0].trim());
+          // Single company - use streaming
+          const [companyName, domain] = lines[0].split(',').map(s => s.trim());
+          const res = await analyzeCompanyStream(companyName, domain || null, handleProgress);
           setResults(res);
         } else {
+          // Batch - use regular API
           const res = await analyzeBatch(lines);
           setResults(res);
+          setProgress({ step: 'DONE', status: 'complete', message: 'Batch analysis complete!' });
         }
       }
     } catch (e) {
@@ -194,7 +205,7 @@ export default function App() {
       </section>
 
       {/* Loading State */}
-      {loading && <LoadingState />}
+      {loading && <LoadingState progress={progress} />}
 
       {/* Error */}
       {error && (
@@ -219,18 +230,73 @@ export default function App() {
 
 
 /* ─── Loading Component ─────────────────────────────────────────── */
-function LoadingState() {
-  const agents = [
-    'Company Identification', 'Profile Enrichment', 'Tech Stack Detection',
-    'Business Signals', 'Leadership Discovery', 'Persona Inference',
-    'Intent Scoring', 'AI Summary Generation'
+function LoadingState({ progress }) {
+  const allSteps = [
+    { key: 'IDENTIFY', label: 'Company Identification' },
+    { key: 'ENRICH', label: 'Profile Enrichment' },
+    { key: 'TECH', label: 'Tech Stack Detection' },
+    { key: 'SIGNALS', label: 'Business Signals' },
+    { key: 'LEADERSHIP', label: 'Leadership Discovery' },
+    { key: 'BEHAVIOR', label: 'Behavior Analysis' },
+    { key: 'ICP', label: 'ICP & Competitors' },
+    { key: 'FINALIZE', label: 'Summary Generation' },
   ];
+
+  const currentStep = progress?.step || '';
+  const currentStatus = progress?.status || 'in_progress';
+  const currentMessage = progress?.message || 'Starting analysis...';
+
+  // Calculate progress percentage
+  const currentIndex = allSteps.findIndex(s => s.key === currentStep);
+  const progressPercent = currentIndex >= 0 ? Math.round((currentIndex / allSteps.length) * 100) : 10;
+
   return (
     <div className="loading-container" role="status" aria-live="polite" aria-label="Loading analysis">
       <div className="loading-spinner" aria-hidden="true" />
-      <div className="loading-text">◉ Executing AI Agents…</div>
-      <div className="loading-agents" aria-label="Active agents">
-        {agents.map(a => <span key={a} className="loading-agent-chip">{a}</span>)}
+      <div className="loading-text">{currentMessage}</div>
+
+      {/* Progress Bar */}
+      <div style={{ width: '80%', maxWidth: '300px', margin: '20px auto' }}>
+        <div style={{
+          height: '8px',
+          background: '#333',
+          borderRadius: '4px',
+          overflow: 'hidden',
+          marginBottom: '10px'
+        }}>
+          <div style={{
+            height: '100%',
+            background: currentStatus === 'complete' ? '#4CAF50' : '#2196F3',
+            width: `${progressPercent}%`,
+            transition: 'width 0.3s ease'
+          }} />
+        </div>
+        <div style={{ fontSize: '12px', color: '#888', textAlign: 'center' }}>
+          {currentStep} • {progressPercent}% complete
+        </div>
+      </div>
+
+      {/* Step by Step Progress */}
+      <div className="loading-agents" aria-label="Analysis steps">
+        {allSteps.map((step, index) => {
+          const isComplete = allSteps.findIndex(s => s.key === currentStep) > index ||
+            (currentStatus === 'complete' && currentStep === 'DONE');
+          const isCurrent = currentStep === step.key;
+          const isPending = !isComplete && !isCurrent;
+
+          return (
+            <span
+              key={step.key}
+              className="loading-agent-chip"
+              style={{
+                background: isComplete ? '#4CAF50' : isCurrent ? '#2196F3' : '#444',
+                opacity: isPending ? 0.5 : 1,
+              }}
+            >
+              {step.label}
+            </span>
+          );
+        })}
       </div>
     </div>
   );
