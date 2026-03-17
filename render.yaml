@@ -1,22 +1,13 @@
 # Render.com Configuration
-# Deploy both frontend and backend together on free tier
+# Use Docker for reliable deployment
 
 services:
   - name: ai-account-intelligence
-    type: web
+    type: docker
     region: oregon
-    runtime: python
-    # Use Python 3.12 for Playwright compatibility
-    pythonVersion: "3.12"
-    buildCommand: |
-      pip install -r backend/requirements.txt
-      pip install playwright
-      playwright install chromium --with-deps
-      cd frontend && npm install && npm run build
-    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    dockerfilePath: Dockerfile
+    dockerCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     envVars:
-      - key: PYTHONPATH
-        value: /app
       - key: KILO_API_KEY
         sync: false
       - key: FIRECRAWL_API_KEY
