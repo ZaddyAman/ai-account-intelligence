@@ -292,10 +292,6 @@ Our system uses a **4-tier scraping approach** for maximum reliability:
 - Falls back to LLM knowledge when needed
 - Caches results for performance
 
-### 5. **Hackathon-Ready**
-- Fast to set up
-- Docker deployment ready
-- Clear API documentation
 
 ---
 
